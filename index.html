@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card img {
+            height: 150px;
+            width: 90%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipes</h1>
+        <nav class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Recipe Menu</h2>
+            <ul>
+                <li><a href="spagetti.html">Spaghetti Carbonara</a></li>
+                <li><a href="chocolate.html">Chocolate Cake</a></li>
+                <li><a href="friedrice.html">Chicken Fried Rice</a></li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Welcome to My Recipe Website</h2>
+            <p>
+                Explore delicious recipes, learn how to cook step-by-step dishes,
+                and browse through easy meals you can make today!
+            </p>
+
+            <div class="card-grid">
+                <div class="card">
+                    <img src="images/spagetti.jpeg" alt="Spaghetti Carbonara">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>A classic Italian pasta dish.</p>
+                    <a href="spagetti.html" class="btn">View Recipe</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/cholcatecake.jpeg" alt="Chocolate Cake">
+                    <h3>Chocolate Cake</h3>
+                    <p>Rich and moist dessert.</p>
+                    <a href="chocolate.html" class="btn">View Recipe</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/friedrice.jpeg" alt="Chicken Fried Rice">
+                    <h3>Chicken Fried Rice</h3>
+                    <p>Simple and quick dinner meal.</p>
+                    <a href="friedrice.html" class="btn">View Recipe</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Delicious Recipes</p>
+    </footer>
+
+</body>
+</html>
